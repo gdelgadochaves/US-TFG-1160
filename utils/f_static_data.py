@@ -22,6 +22,7 @@ def cities_to_use():
             'cambridge MA', 
             'cape town',
             'chicago',
+            'clark county',
             'sevilla', 
             'shanghai']
 
@@ -46,7 +47,21 @@ def columns_to_use():
             'room_type', 
             'bathrooms', 
             'bedrooms', 
-            'beds']
+            'beds', 
+            'minimum_nights', 
+            'maximum_nights', 
+            'availability_30', 
+            'availability_90', 
+            'availability_365',  
+            'number_of_reviews_ltm',
+            'review_scores_rating', 
+            'review_scores_accuracy', 
+            'review_scores_cleanliness', 
+            'review_scores_checkin', 
+            'review_scores_communication', 
+            'review_scores_location', 
+            'review_scores_value',
+            'instant_bookable']
 
 def columns_to_fit():
     return ['host_id', 
@@ -68,4 +83,18 @@ def columns_to_fit():
             'room_type', 
             'bathrooms', 
             'bedrooms', 
-            'beds']
+            'beds', 
+            'minimum_nights', 
+            'maximum_nights', 
+            'availability_30', 
+            'availability_90', 
+            'availability_365',
+            'number_of_reviews_ltm',
+            'review_scores_rating', 
+            'review_scores_accuracy', 
+            'review_scores_cleanliness', 
+            'review_scores_checkin', 
+            'review_scores_communication', 
+            'review_scores_location', 
+            'review_scores_value', 
+            'instant_bookable']
