@@ -1,4 +1,27 @@
-def cities_to_use():
+def cities_to_use_1():
+    return ['amsterdam', 
+            'antwerp', 
+            'asheville', 
+            'athens', 
+            'austin', 
+            'bangkok', 
+            'barcelona', 
+            'barossa valley',
+            'barwon south west', 
+            'beijing', 
+            'belize', 
+            'bergamo', 
+            'berlin', 
+            'bologna', 
+            'bordeaux', 
+            'boston', 
+            'bristol', 
+            'broward county', 
+            'brussels', 
+            'buenos aires'
+            'shanghai']
+
+def cities_to_use_2():
     return ['amsterdam', 
             'antwerp', 
             'asheville', 
@@ -24,7 +47,11 @@ def cities_to_use():
             'chicago',
             'clark county',
             'sevilla', 
-            'copenhagen',
+            'copenhagen', 
+            'denver', 
+            'dublin', 
+            'edinburgh', 
+            'euskadi',
             'shanghai']
 
 def columns_to_use():
@@ -77,8 +104,7 @@ def columns_to_fit():
             'host_is_superhost', 
             'host_total_listings_count', 
             'host_has_profile_pic',
-            'host_identity_verified', 
-            'neighbourhood', 
+            'host_identity_verified',
             'property_type',
             'room_type', 
             'bathrooms', 
