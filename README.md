@@ -19,3 +19,5 @@ Estos son los cuadernos (*notebook*) de Jupyter disponibles:
 4. nb4_knn.ipynb: algoritmo de cálculo de distancias entre puntos *K Nearest Neighbors* (*KNN*).
 5. nb5_regression.ipynb: empleo de regresión linear simple para predicción de un objetivo y sobre datos tabulados con múltiples columnas.
 6. nb6_coord.ipynb: uso de técnicas de descenso por coordenadas (*Coordinate Descent*) como alternativa más potente de regresión, así como para el cálculo de trayectorias de disminución de funciones de error.
+7. nb7_other.ipynb: descripción de algunos casos de error en algoritmos que no se pudieron ejecutar correctamente.
+8. nb8_dask.ipynb: cálculo de varios modelos empleando múltiples GPUs mediante el gestor multinodo de Dask.
